@@ -8,7 +8,7 @@ To run it locally, open `index.html` in a browser (serve the folder over HTTP so
 
 ## What's in it
 
-- **Top 30 languages** (Ethnologue 2026, total speakers) as a checklist of sounds, with hand-checked inventories and cited corrections where the source data had clear errors.
+- **Top 50 languages** (Ethnologue 2026, total speakers) as a checklist of sounds, with hand-checked inventories and cited corrections where the source data had clear errors.
 - **All 2,175 languages** with a documented phoneme inventory in PHOIBLE 2.0, filterable by family, region and sound, sortable by inventory size or native speakers.
 - **280 sound columns**: every symbol on the official IPA chart plus every variant used by at least 1% of languages, grouped by manner (plosive, nasal, trill, tap, fricative, approximant, affricate, ejective, implosive, click…) and place.
 - **Sound panels**: an animated side view of the mouth for every sound, a "how to make it" description, a reference recording (152 sounds) and a native-speaker example word (233 sounds), each verified against its Wiktionary IPA transcription.

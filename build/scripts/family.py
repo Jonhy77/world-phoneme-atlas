@@ -57,7 +57,9 @@ nodes, paths, rel = {}, {}, {}
 def add(n):
     if n in GL and n not in nodes:
         nodes[n] = [GL[n]['Name'], parent.get(n, ''), GL[n]['Level'][:1]]  # level: l(anguage) / f(amily) / d(ialect)
-for L in D['langs']:
+EXTRA = [[t[1], GL.get(t[8], {}).get('ISO639P3code', ''), t[8]] for t in D['top'] if len(t) > 8 and t[8] and t[5] is None]
+ALL = D['langs'] + EXTRA
+for L in ALL:
     gc = L[2]
     p = path(gc)
     paths[gc] = p
@@ -170,7 +172,7 @@ def wcode(iso):
         if c and c in LANG: return c
     return None
 anc, wnames = {}, {}
-for L in D['langs']:
+for L in ALL:
     c = wcode(L[1])
     if not c: continue
     ch = chain(c)

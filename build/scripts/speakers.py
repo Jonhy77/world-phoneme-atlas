@@ -26,7 +26,7 @@ for L in D['langs']:
     out[L[2]] = [rec['n'], rec['year'], rec['item'], 'wd']
 # top 30: Ethnologue 2026 L1 figures (millions) replace Wikidata; MSA has no native speakers
 for t in D['top']:
-    gc = D['inv'][t[5]][3]
+    gc = t[8] if len(t) > 8 and t[8] else D['inv'][t[5]][3]
     if t[1] == 'Western Punjabi': continue
     if t[2] is None: continue
     out[gc] = [int(t[2] * 1_000_000), '2026', '', 'eth'] if t[2] > 0 else [0, '2026', '', 'eth']

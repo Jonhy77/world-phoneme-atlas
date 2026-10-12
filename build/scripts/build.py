@@ -48,13 +48,33 @@ TOP = [
  (23, 'Tagalog', 33, 54, 87, '1666', ''),
  (24, 'Tamil', 79, 8, 86, '1058', 'Standard Spoken Tamil. Voiced stops are marginal in this analysis.'),
  (25, 'Yue Chinese (Cantonese)', 85, 1, 86, '2309', 'Hong Kong Cantonese.'),
- (26, 'Wu Chinese', 83, 1, 83, '17', 'The SPA source does not name the Wu variety. b̤̥ d̤̥ ɡ̤̥ are the "slack-voiced" series.'),
+ (26, 'Wu Chinese', 83, 0.5, 83, '17', 'The SPA source does not name the Wu variety. b̤̥ d̤̥ ɡ̤̥ are the "slack-voiced" series.'),
  (27, 'Persian', 65, 17, 82, '2205', 'Iranian Persian.'),
  (28, 'Korean', 82, 1, 82, '2197', 'Seoul. This source marks one of the three stop series (lax / aspirated / tense) with ◌͉.'),
  (29, 'Amharic', 39, 39, 78, '131', 'This source counts geminate consonants as separate phonemes.'),
  (30, 'Thai', 27, 44, 71, '2215', 'Standard Thai.'),
+ (31, 'Javanese', None, None, 69.2, '36', 'The SPA source writes the "heavy" (slack-voiced) stop series as b̤̥ d̤̥ ɡ̤̥, which is how phoneticians describe them. Chosen over the PHOIBLE Yogya-Solo inventory, which lists a front rounded /y/ that Javanese does not have.'),
+ (32, 'Italian', 60, 6, 65.6, '2195', 'Standard Italian. Long (geminate) consonants are listed as separate phonemes; ts dz ɲ ʎ ʃ only occur long between vowels, so the source lists them long.'),
+ (33, 'Gujarati', 58, 5, 62.5, '2452', 'Standard Gujarati, with its breathy (murmured) vowels.'),
+ (34, 'Kannada', 44, 15, 58.7, '2277', 'Standard Kannada.'),
+ (35, 'Levantine Arabic', 55, 3, 57.8, None, 'PHOIBLE has no inventory for Levantine Arabic (apc). The inventory filed as "Lebanese Arabic" in PHOIBLE is in fact Libyan Arabic (Elfitoury 1976), so it is not used here.', 'nort3139'),
+ (36, 'Sudanese Arabic', 43, 11, 54.3, '659', 'This source counts geminate consonants as separate phonemes.'),
+ (37, 'Yoruba', 48, 5, 52.9, '848', 'Nigerian Yoruba. Yoruba p is the double stop k͡p.'),
+ (38, 'Bhojpuri', 53, 0.5, 52.7, '2357', ''),
+ (39, 'Jinyu Chinese', None, None, 48.0, None, 'PHOIBLE has no inventory for Jin Chinese (cjy).', 'jiny1235'),
+ (40, 'Min Nan Chinese', None, None, 45.8, '481', 'Xiamen Hokkien (UPSID). The source does not list tones; Hokkien has seven.'),
+ (41, 'Polish', None, None, 45.5, '2604', 'Standard Polish. This source writes sz ż cz dż as retroflex ʂ ʐ ʈ͡ʂ ɖ͡ʐ and y as ɘ̟ (usually written ɨ).'),
+ (42, 'Burmese', None, None, 44.5, '2338', 'Rangoon. The source does not list tones; Burmese has three tones plus a checked syllable type. Chosen over the PHOIBLE Rangoon inventory, which writes voiceless nasals as sequences (m̥m).'),
+ (43, 'Algerian Arabic', None, None, 43.4, None, 'PHOIBLE has no inventory for Algerian Arabic (arq).', 'alge1239'),
+ (44, 'Hakka Chinese', None, None, 40.7, '2165', 'Meixian Hakka.'),
+ (45, 'Lingala', None, None, 40.6, '768', 'The source does not list tones; Lingala has two (high and low).'),
+ (46, 'Moroccan Arabic', None, None, 40.4, '133', 'This source counts geminate consonants as separate phonemes.'),
+ (47, 'Odia', None, None, 39.5, '2495', ''),
+ (48, 'Malayalam', None, None, 38.7, '2559', 'This source writes the ഴ sound as ʐ; most descriptions write it as the retroflex approximant ɻ.'),
+ (49, 'Xiang Chinese', None, None, 38.2, None, 'PHOIBLE has no inventory for Xiang Chinese (hsn).', 'xian1251'),
+ (50, 'Sindhi', None, None, 36.9, '2437', 'Standard (Vicholi) Sindhi, with its four implosives.'),
 ]
-TOP_INV = {t[5] for t in TOP}
+TOP_INV = {t[5] for t in TOP if t[5]}
 
 # ---------- Corrections to clear errors in the default top-30 inventories ----------
 # type: add (raw segment) | replace (raw -> new raw)
@@ -65,6 +85,8 @@ ERRATA = {
  '2157': [('replace', 'ii̯', 'iː', 'The source writes MSA long /iː/ as ii̯. Mapped to iː so it lines up with the other long vowels.'),
           ('replace', 'uu̯', 'uː', 'The source writes MSA long /uː/ as uu̯. Mapped to uː so it lines up with the other long vowels.'),
           ('replace', 'xʀ̥', 'x', 'The source transcribes خ as a fricative with uvular trilling [xʀ̥]. Phonemically this is /x/ (often realized [χ]).')],
+ '2604': [('add', 'l', None, 'PHOIBLE omits /l/ from this Polish inventory. Source: Jassem (2003), "Polish", JIPA 33(1).'),
+          ('add', 'r', None, 'PHOIBLE omits the trill /r/ from this Polish inventory. Source: Jassem (2003), "Polish", JIPA 33(1).')],
  '2309': [('add', t, None, 'This Cantonese inventory has no tones. Added the six citation tones 55, 25, 33, 21, 23, 22 (Matthews & Yip, "Cantonese: A Comprehensive Grammar", 2nd ed., 2011).')
           for t in ['˥', '˨˥', '˧', '˨˩', '˨˧', '˨']],
 }
@@ -79,6 +101,7 @@ for i in inv:
     if g not in pick or PRI.index(meta[i]['Source']) < PRI.index(meta[pick[g]]['Source']):
         pick[g] = i
 for t in TOP:  # curated choice overrides the rule
+    if t[5] is None: continue
     g = meta[t[5]]['Glottocode']
     if t[1] != 'Western Punjabi':
         pick[g] = t[5]
@@ -191,7 +214,8 @@ out = {
                 [[s[0], s[1], s[2]] + ([s[3]] if s[3] >= 0 else []) for s in v['segs']]] for i, v in INV.items()},
     'langs': LANGS,
     'top': [[t[0], t[1], t[2], t[3], t[4], t[5], t[6],
-             [j for j in inv if meta[j]['Glottocode'] == meta[t[5]]['Glottocode'] and j != t[5]]] for t in TOP],
+             [j for j in inv if t[5] and meta[j]['Glottocode'] == meta[t[5]]['Glottocode'] and j != t[5]],
+             t[7] if len(t) > 7 else (meta[t[5]]['Glottocode'] if t[5] else '')] for t in TOP],
     'notes': NOTES,
     'nlang': len(pick), 'ninv': len(inv), 'thr': THR,
 }
