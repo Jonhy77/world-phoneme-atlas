@@ -1,0 +1,8 @@
+build/data/
+build/audio_src/
+build/pub/
+build/data.json
+build/wcache/
+build/kaikki/
+build/words_*.json
+build/scripts/__pycache__/

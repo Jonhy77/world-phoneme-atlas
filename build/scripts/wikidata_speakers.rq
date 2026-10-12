@@ -1,0 +1,8 @@
+SELECT ?item ?iso ?glotto ?n ?date ?part ?rank WHERE {
+  ?item p:P1098 ?st . ?st ps:P1098 ?n ; wikibase:rank ?rank .
+  OPTIONAL { ?st pq:P585 ?date }
+  OPTIONAL { ?st pq:P518 ?part }
+  OPTIONAL { ?item wdt:P220 ?iso }
+  OPTIONAL { ?item wdt:P1394 ?glotto }
+  FILTER(BOUND(?iso) || BOUND(?glotto))
+}

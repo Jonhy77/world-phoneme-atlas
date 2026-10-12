@@ -1,0 +1,1073 @@
+{
+ "p": {
+  "file": "Voiceless_bilabial_plosive.ogg",
+  "path": "audio_src/files/000.mp3",
+  "artist": "uploaded by Joni~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 28367
+ },
+ "b": {
+  "file": "Voiced_bilabial_plosive.ogg",
+  "path": "audio_src/files/001.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 39580
+ },
+ "t": {
+  "file": "Voiceless_alveolar_plosive.ogg",
+  "path": "audio_src/files/002.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 44581
+ },
+ "d": {
+  "file": "Voiced_alveolar_plosive.ogg",
+  "path": "audio_src/files/003.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 46961
+ },
+ "ʈ": {
+  "file": "Voiceless_retroflex_stop.oga",
+  "path": "audio_src/files/004.mp3",
+  "artist": "Recorded by Peter Isotalo.",
+  "license": "CC BY-SA 3.0",
+  "bytes": 33112
+ },
+ "ɖ": {
+  "file": "Voiced_retroflex_stop.oga",
+  "path": "audio_src/files/005.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 41467
+ },
+ "c": {
+  "file": "Voiceless_palatal_plosive.ogg",
+  "path": "audio_src/files/006.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 37189
+ },
+ "ɟ": {
+  "file": "Voiced_palatal_plosive.ogg",
+  "path": "audio_src/files/007.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40373
+ },
+ "k": {
+  "file": "Voiceless_velar_plosive.ogg",
+  "path": "audio_src/files/008.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40919
+ },
+ "ɡ": {
+  "file": "Voiced_velar_plosive_02.ogg",
+  "path": "audio_src/files/009.mp3",
+  "artist": "uploaded by BetacommandBot",
+  "license": "CC BY-SA 3.0",
+  "bytes": 37549
+ },
+ "q": {
+  "file": "Voiceless_uvular_plosive.ogg",
+  "path": "audio_src/files/010.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 38307
+ },
+ "ɢ": {
+  "file": "Voiced_uvular_stop.oga",
+  "path": "audio_src/files/011.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 38859
+ },
+ "ʡ": {
+  "file": "Epiglottal_stop.ogg",
+  "path": "audio_src/files/012.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 69571
+ },
+ "ʔ": {
+  "file": "Glottal_stop.ogg",
+  "path": "audio_src/files/013.mp3",
+  "artist": "Peter (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 45568
+ },
+ "m": {
+  "file": "Bilabial_nasal.ogg",
+  "path": "audio_src/files/014.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 41099
+ },
+ "m̥": {
+  "file": "Voiceless_Bilabial_Nasal.ogg",
+  "path": "audio_src/files/015.mp3",
+  "artist": "K1RB1L1TY",
+  "license": "CC BY-SA 4.0",
+  "bytes": 81274
+ },
+ "ɱ": {
+  "file": "Labiodental_nasal.ogg",
+  "path": "audio_src/files/016.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 42976
+ },
+ "n": {
+  "file": "Alveolar_nasal.ogg",
+  "path": "audio_src/files/017.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 46420
+ },
+ "n̥": {
+  "file": "Voiceless_Alveolar_Nasal.ogg",
+  "path": "audio_src/files/018.mp3",
+  "artist": "K1RB1L1TY",
+  "license": "CC BY-SA 4.0",
+  "bytes": 79752
+ },
+ "ɳ": {
+  "file": "Retroflex_nasal.ogg",
+  "path": "audio_src/files/019.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 46269
+ },
+ "ɲ": {
+  "file": "Palatal_nasal.ogg",
+  "path": "audio_src/files/020.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 43791
+ },
+ "ɲ̥": {
+  "file": "Voiceless_palatal_nasal.ogg",
+  "path": "audio_src/files/021.mp3",
+  "artist": "Eshaan011",
+  "license": "CC0",
+  "bytes": 22882
+ },
+ "ŋ": {
+  "file": "Velar_nasal.ogg",
+  "path": "audio_src/files/022.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 38593
+ },
+ "ŋ̥": {
+  "file": "Voiceless_velar_nasal.wav",
+  "path": "audio_src/files/023.mp3",
+  "artist": "Eshaan011",
+  "license": "CC0",
+  "bytes": 54905
+ },
+ "ɴ": {
+  "file": "Uvular_nasal.ogg",
+  "path": "audio_src/files/024.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40630
+ },
+ "ʙ": {
+  "file": "Bilabial_trill.ogg",
+  "path": "audio_src/files/025.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 37657
+ },
+ "r": {
+  "file": "Alveolar_trill.ogg",
+  "path": "audio_src/files/026.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40164
+ },
+ "r̥": {
+  "file": "Voiceless_alveolar_trill.ogg",
+  "path": "audio_src/files/027.mp3",
+  "artist": "Rockrunnerthecard",
+  "license": "CC0",
+  "bytes": 39456
+ },
+ "ʀ": {
+  "file": "Uvular_trill.ogg",
+  "path": "audio_src/files/028.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40470
+ },
+ "ʜ": {
+  "file": "Voiceless_epiglottal_trill.ogg",
+  "path": "audio_src/files/029.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 4.0",
+  "bytes": 95823
+ },
+ "ʢ": {
+  "file": "Voiced_epiglottal_trill_2.ogg",
+  "path": "audio_src/files/030.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 4.0",
+  "bytes": 66634
+ },
+ "ⱱ": {
+  "file": "Labiodental_flap.ogg",
+  "path": "audio_src/files/031.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 31809
+ },
+ "ɾ": {
+  "file": "Alveolar_tap.ogg",
+  "path": "audio_src/files/032.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 42195
+ },
+ "ɽ": {
+  "file": "Retroflex_flap.ogg",
+  "path": "audio_src/files/033.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40325
+ },
+ "ɺ": {
+  "file": "Voiced_alveolar_lateral_flap.wav",
+  "path": "audio_src/files/034.mp3",
+  "artist": "Eshaan011",
+  "license": "CC0",
+  "bytes": 26064
+ },
+ "ɸ": {
+  "file": "Voiceless_bilabial_fricative.ogg",
+  "path": "audio_src/files/035.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 42708
+ },
+ "β": {
+  "file": "Voiced_bilabial_fricative.ogg",
+  "path": "audio_src/files/036.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 39415
+ },
+ "f": {
+  "file": "Voiceless_labio-dental_fricative.ogg",
+  "path": "audio_src/files/037.mp3",
+  "artist": "Nixinova",
+  "license": "CC0",
+  "bytes": 35650
+ },
+ "v": {
+  "file": "Voiced_labio-dental_fricative.ogg",
+  "path": "audio_src/files/038.mp3",
+  "artist": "Nixinova",
+  "license": "CC0",
+  "bytes": 31757
+ },
+ "θ": {
+  "file": "Voiceless_dental_fricative.ogg",
+  "path": "audio_src/files/039.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 41611
+ },
+ "ð": {
+  "file": "Voiced_dental_fricative.ogg",
+  "path": "audio_src/files/040.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 43932
+ },
+ "s": {
+  "file": "Voiceless_alveolar_sibilant.ogg",
+  "path": "audio_src/files/041.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 55872
+ },
+ "z": {
+  "file": "Voiced_alveolar_sibilant.ogg",
+  "path": "audio_src/files/042.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 44333
+ },
+ "ʃ": {
+  "file": "Voiceless_palato-alveolar_sibilant.ogg",
+  "path": "audio_src/files/043.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 53474
+ },
+ "ʒ": {
+  "file": "Voiced_palato-alveolar_sibilant.ogg",
+  "path": "audio_src/files/044.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 56758
+ },
+ "ʂ": {
+  "file": "Voiceless_retroflex_sibilant.ogg",
+  "path": "audio_src/files/045.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 54885
+ },
+ "ʐ": {
+  "file": "Voiced_retroflex_sibilant.ogg",
+  "path": "audio_src/files/046.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 56814
+ },
+ "ɕ": {
+  "file": "Voiceless_alveolo-palatal_sibilant.ogg",
+  "path": "audio_src/files/047.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 44072
+ },
+ "ʑ": {
+  "file": "Voiced_alveolo-palatal_sibilant.ogg",
+  "path": "audio_src/files/048.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 49662
+ },
+ "ç": {
+  "file": "Voiceless_palatal_fricative.ogg",
+  "path": "audio_src/files/049.mp3",
+  "artist": "uploaded by Kostya-Artist2005",
+  "license": "CC BY-SA 3.0",
+  "bytes": 37717
+ },
+ "ʝ": {
+  "file": "Voiced_palatal_fricative.ogg",
+  "path": "audio_src/files/050.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 44855
+ },
+ "x": {
+  "file": "Voiceless_velar_fricative.ogg",
+  "path": "audio_src/files/051.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 39289
+ },
+ "ɣ": {
+  "file": "Voiced_velar_fricative.ogg",
+  "path": "audio_src/files/052.mp3",
+  "artist": "uploaded by Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 39839
+ },
+ "χ": {
+  "file": "Voiceless_uvular_fricative.ogg",
+  "path": "audio_src/files/053.mp3",
+  "artist": "uploaded by Nardog",
+  "license": "CC BY-SA 3.0",
+  "bytes": 38167
+ },
+ "ʁ": {
+  "file": "Voiced_uvular_fricative.ogg",
+  "path": "audio_src/files/054.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40254
+ },
+ "ħ": {
+  "file": "Voiceless_pharyngeal_fricative.ogg",
+  "path": "audio_src/files/055.mp3",
+  "artist": "uploaded by Leonel Sohns",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40826
+ },
+ "ʕ": {
+  "file": "Voiced_pharyngeal_fricative.ogg",
+  "path": "audio_src/files/056.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 32061
+ },
+ "h": {
+  "file": "Voiceless_glottal_fricative.ogg",
+  "path": "audio_src/files/057.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 48936
+ },
+ "ɦ": {
+  "file": "Voiced_glottal_fricative.ogg",
+  "path": "audio_src/files/058.mp3",
+  "artist": "Karmosin",
+  "license": "CC BY-SA 3.0",
+  "bytes": 49452
+ },
+ "ʍ": {
+  "file": "Voiceless_labio-velar_fricative.ogg",
+  "path": "audio_src/files/059.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40782
+ },
+ "ɧ": {
+  "file": "Voiceless_dorso-palatal_velar_fricative.ogg",
+  "path": "audio_src/files/060.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 49666
+ },
+ "ɬ": {
+  "file": "Voiceless_alveolar_lateral_fricative.ogg",
+  "path": "audio_src/files/061.mp3",
+  "artist": "Recorded by tFighterPilot",
+  "license": "CC BY-SA 3.0",
+  "bytes": 26714
+ },
+ "ɮ": {
+  "file": "Voiced_alveolar_lateral_fricative.ogg",
+  "path": "audio_src/files/062.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 27320
+ },
+ "ʋ": {
+  "file": "Labiodental_approximant.ogg",
+  "path": "audio_src/files/063.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 46840
+ },
+ "ɹ": {
+  "file": "Alveolar_approximant.ogg",
+  "path": "audio_src/files/064.mp3",
+  "artist": "Erutuon",
+  "license": "CC BY-SA 3.0",
+  "bytes": 41207
+ },
+ "ɻ": {
+  "file": "Retroflex_Approximant2.oga",
+  "path": "audio_src/files/065.mp3",
+  "artist": "Pranav Jayachand",
+  "license": "CC BY-SA 4.0",
+  "bytes": 55383
+ },
+ "j": {
+  "file": "Palatal_approximant.ogg",
+  "path": "audio_src/files/066.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 46404
+ },
+ "ɰ": {
+  "file": "Voiced_velar_approximant.ogg",
+  "path": "audio_src/files/067.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 41801
+ },
+ "w": {
+  "file": "Voiced_labio-velar_approximant.ogg",
+  "path": "audio_src/files/068.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 35566
+ },
+ "ɥ": {
+  "file": "LL-Q150_(fra)-WikiLucas00-IPA_ɥ.wav",
+  "path": "audio_src/files/069.mp3",
+  "artist": "Speaker: WikiLucas00 Recorder: WikiLucas00",
+  "license": "CC BY-SA 4.0",
+  "bytes": 35253
+ },
+ "β̞": {
+  "file": "Bilabial_approximant.ogg",
+  "path": "audio_src/files/070.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 44793
+ },
+ "l": {
+  "file": "Alveolar_lateral_approximant.ogg",
+  "path": "audio_src/files/071.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 44123
+ },
+ "l̥": {
+  "file": "Voiceless_alveolar_lateral_approximant.ogg",
+  "path": "audio_src/files/072.mp3",
+  "artist": "BodhiHarp",
+  "license": "CC0",
+  "bytes": 42010
+ },
+ "ɭ": {
+  "file": "Retroflex_lateral_approximant.ogg",
+  "path": "audio_src/files/073.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40931
+ },
+ "ʎ": {
+  "file": "Palatal_lateral_approximant.ogg",
+  "path": "audio_src/files/074.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 58907
+ },
+ "ʟ": {
+  "file": "Velar_lateral_approximant.ogg",
+  "path": "audio_src/files/075.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40043
+ },
+ "lˠ": {
+  "file": "Velarized_alveolar_lateral_approximant.ogg",
+  "path": "audio_src/files/076.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 38636
+ },
+ "ts": {
+  "file": "Voiceless_alveolar_sibilant_affricate.oga",
+  "path": "audio_src/files/077.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 14809
+ },
+ "dz": {
+  "file": "Voiced_alveolar_sibilant_affricate.oga",
+  "path": "audio_src/files/078.mp3",
+  "artist": "uploaded by Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 42473
+ },
+ "tʃ": {
+  "file": "Voiceless_palato-alveolar_affricate.ogg",
+  "path": "audio_src/files/079.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 35960
+ },
+ "dʒ": {
+  "file": "Voiced_palato-alveolar_affricate.ogg",
+  "path": "audio_src/files/080.mp3",
+  "artist": "The original uploader was Octane at English Wikipedia.",
+  "license": "Public domain",
+  "bytes": 25969
+ },
+ "ʈʂ": {
+  "file": "Voiceless_retroflex_affricate.ogg",
+  "path": "audio_src/files/081.mp3",
+  "artist": "Halibutt",
+  "license": "CC BY-SA 3.0",
+  "bytes": 48165
+ },
+ "ɖʐ": {
+  "file": "Voiced_retroflex_affricate.ogg",
+  "path": "audio_src/files/082.mp3",
+  "artist": "Halibutt",
+  "license": "CC BY-SA 3.0",
+  "bytes": 49568
+ },
+ "tɕ": {
+  "file": "Voiceless_alveolo-palatal_affricate.ogg",
+  "path": "audio_src/files/083.mp3",
+  "artist": "Halibutt",
+  "license": "CC BY-SA 3.0",
+  "bytes": 46181
+ },
+ "dʑ": {
+  "file": "Voiced_alveolo-palatal_affricate.ogg",
+  "path": "audio_src/files/084.mp3",
+  "artist": "Halibutt",
+  "license": "CC BY-SA 3.0",
+  "bytes": 50355
+ },
+ "pf": {
+  "file": "Voiceless_labiodental_affricate.ogg",
+  "path": "audio_src/files/085.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 82094
+ },
+ "cç": {
+  "file": "Voiceless_palatal_affricate.ogg",
+  "path": "audio_src/files/086.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 4.0",
+  "bytes": 75363
+ },
+ "ɟʝ": {
+  "file": "Voiced_palatal_affricate.ogg",
+  "path": "audio_src/files/087.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 4.0",
+  "bytes": 74470
+ },
+ "kx": {
+  "file": "Voiceless_velar_affricate.ogg",
+  "path": "audio_src/files/088.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 71751
+ },
+ "qχ": {
+  "file": "Voiceless_uvular_affricate.ogg",
+  "path": "audio_src/files/089.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 42423
+ },
+ "tɬ": {
+  "file": "Voiceless_alveolar_lateral_affricate.ogg",
+  "path": "audio_src/files/090.mp3",
+  "artist": "TFighterPilot",
+  "license": "CC BY-SA 3.0",
+  "bytes": 75415
+ },
+ "dɮ": {
+  "file": "Voiced_alveolar_lateral_affricate.ogg",
+  "path": "audio_src/files/091.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 69358
+ },
+ "pʼ": {
+  "file": "Bilabial_ejective_plosive.ogg",
+  "path": "audio_src/files/092.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40056
+ },
+ "tʼ": {
+  "file": "Alveolar_ejective_plosive.ogg",
+  "path": "audio_src/files/093.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 36903
+ },
+ "ʈʼ": {
+  "file": "Retroflex_ejective.ogg",
+  "path": "audio_src/files/094.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 4.0",
+  "bytes": 56870
+ },
+ "cʼ": {
+  "file": "Palatal_ejective.ogg",
+  "path": "audio_src/files/095.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 37315
+ },
+ "kʼ": {
+  "file": "Velar_ejective_plosive.ogg",
+  "path": "audio_src/files/096.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 40478
+ },
+ "qʼ": {
+  "file": "Uvular_ejective_plosive.ogg",
+  "path": "audio_src/files/097.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 46801
+ },
+ "fʼ": {
+  "file": "Labiodental_ejective_fricative.ogg",
+  "path": "audio_src/files/098.mp3",
+  "artist": "User:Pmx",
+  "license": "CC BY-SA 3.0",
+  "bytes": 78652
+ },
+ "sʼ": {
+  "file": "Alveolar_ejective_fricative.ogg",
+  "path": "audio_src/files/099.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 36164
+ },
+ "ʃʼ": {
+  "file": "Palato-alveolar_ejective_fricative.ogg",
+  "path": "audio_src/files/100.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 68306
+ },
+ "xʼ": {
+  "file": "Velar_ejective_fricative.ogg",
+  "path": "audio_src/files/101.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 68365
+ },
+ "χʼ": {
+  "file": "Uvular_ejective_fricative.ogg",
+  "path": "audio_src/files/102.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 79687
+ },
+ "ɬʼ": {
+  "file": "Alveolar_lateral_ejective_fricative.ogg",
+  "path": "audio_src/files/103.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 78073
+ },
+ "tsʼ": {
+  "file": "Alveolar_ejective_affricate.ogg",
+  "path": "audio_src/files/104.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 78746
+ },
+ "tʃʼ": {
+  "file": "Palato-alveolar_ejective_affricate.ogg",
+  "path": "audio_src/files/105.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 84286
+ },
+ "ʈʂʼ": {
+  "file": "Retroflex_ejective_affricate.ogg",
+  "path": "audio_src/files/106.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 4.0",
+  "bytes": 72596
+ },
+ "kxʼ": {
+  "file": "Velar_ejective_affricate.ogg",
+  "path": "audio_src/files/107.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 76451
+ },
+ "qχʼ": {
+  "file": "Uvular_ejective_affricate.ogg",
+  "path": "audio_src/files/108.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 68256
+ },
+ "tɬʼ": {
+  "file": "Alveolar_lateral_ejective_affricate.ogg",
+  "path": "audio_src/files/109.mp3",
+  "artist": "Adamsa123",
+  "license": "CC BY-SA 3.0",
+  "bytes": 81885
+ },
+ "ɓ": {
+  "file": "Voiced_bilabial_implosive.ogg",
+  "path": "audio_src/files/110.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 26327
+ },
+ "ɗ": {
+  "file": "Voiced_alveolar_implosive.ogg",
+  "path": "audio_src/files/111.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 3.0",
+  "bytes": 32124
+ },
+ "ᶑ": {
+  "file": "Voiced-retroflex-implosive.ogg",
+  "path": "audio_src/files/112.mp3",
+  "artist": "Peter Isotalo",
+  "license": "CC BY-SA 4.0",
+  "bytes": 49563
+ },
+ "ʄ": {
+  "file": "Voiced_palatal_implosive.ogg",
+  "path": "audio_src/files/113.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 33794
+ },
+ "ɠ": {
+  "file": "Voiced_velar_implosive.ogg",
+  "path": "audio_src/files/114.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 30503
+ },
+ "ʛ": {
+  "file": "Voiced_uvular_implosive.ogg",
+  "path": "audio_src/files/115.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 30631
+ },
+ "ʘ": {
+  "file": "Clic_bilabial_sourd.ogg",
+  "path": "audio_src/files/116.mp3",
+  "artist": "Vincent Ramos at French Wikipedia",
+  "license": "CC BY-SA 3.0",
+  "bytes": 16824
+ },
+ "ǀ": {
+  "file": "Dental_click.ogg",
+  "path": "audio_src/files/117.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 49773
+ },
+ "ǃ": {
+  "file": "Postalveolar_click.ogg",
+  "path": "audio_src/files/118.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 34085
+ },
+ "ǂ": {
+  "file": "Palatoalveolar_click.ogg",
+  "path": "audio_src/files/119.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 36144
+ },
+ "ǁ": {
+  "file": "Alveolar_lateral_click.ogg",
+  "path": "audio_src/files/120.mp3",
+  "artist": "uploaded by Karmosin~commonswiki",
+  "license": "CC BY-SA 3.0",
+  "bytes": 36246
+ },
+ "‼": {
+  "file": "Retrflx_click.wav",
+  "path": "audio_src/files/121.mp3",
+  "artist": "Ärkhézja",
+  "license": "CC BY-SA 4.0",
+  "bytes": 37462
+ },
+ "kp": {
+  "file": "Voiceless_labial-velar_plosive.ogg",
+  "path": "audio_src/files/122.mp3",
+  "artist": "Anak 1",
+  "license": "Public domain",
+  "bytes": 35230
+ },
+ "ɡb": {
+  "file": "Voiced_labial-velar_plosive.ogg",
+  "path": "audio_src/files/123.mp3",
+  "artist": "Moyogo (per Commons, assumed)",
+  "license": "CC BY 2.5",
+  "bytes": 36862
+ },
+ "ŋm": {
+  "file": "Labial-velar_nasal_stop.ogg",
+  "path": "audio_src/files/124.mp3",
+  "artist": "Anak 1",
+  "license": "Public domain",
+  "bytes": 36565
+ },
+ "i": {
+  "file": "Close_front_unrounded_vowel.ogg",
+  "path": "audio_src/files/125.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 14029
+ },
+ "y": {
+  "file": "Close_front_rounded_vowel.ogg",
+  "path": "audio_src/files/126.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 12195
+ },
+ "ɨ": {
+  "file": "Close_central_unrounded_vowel.ogg",
+  "path": "audio_src/files/127.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11154
+ },
+ "ʉ": {
+  "file": "Close_central_rounded_vowel.ogg",
+  "path": "audio_src/files/128.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 14487
+ },
+ "ɯ": {
+  "file": "Close_back_unrounded_vowel.ogg",
+  "path": "audio_src/files/129.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 10787
+ },
+ "u": {
+  "file": "Close_back_rounded_vowel.ogg",
+  "path": "audio_src/files/130.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11931
+ },
+ "ɪ": {
+  "file": "Near-close_near-front_unrounded_vowel.ogg",
+  "path": "audio_src/files/131.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 13504
+ },
+ "ʏ": {
+  "file": "Near-close_near-front_rounded_vowel.ogg",
+  "path": "audio_src/files/132.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 13033
+ },
+ "ʊ": {
+  "file": "Near-close_near-back_rounded_vowel.ogg",
+  "path": "audio_src/files/133.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 12773
+ },
+ "e": {
+  "file": "Close-mid_front_unrounded_vowel.ogg",
+  "path": "audio_src/files/134.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 16692
+ },
+ "ø": {
+  "file": "Close-mid_front_rounded_vowel.ogg",
+  "path": "audio_src/files/135.mp3",
+  "artist": "Denelson83",
+  "license": "CC BY-SA 3.0",
+  "bytes": 12063
+ },
+ "ɘ": {
+  "file": "Close-mid_central_unrounded_vowel.ogg",
+  "path": "audio_src/files/136.mp3",
+  "artist": "Denelson83",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11622
+ },
+ "ɵ": {
+  "file": "Close-mid_central_rounded_vowel.ogg",
+  "path": "audio_src/files/137.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11568
+ },
+ "ɤ": {
+  "file": "Close-mid_back_unrounded_vowel.ogg",
+  "path": "audio_src/files/138.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 14699
+ },
+ "o": {
+  "file": "Close-mid_back_rounded_vowel.ogg",
+  "path": "audio_src/files/139.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 10866
+ },
+ "ə": {
+  "file": "Mid-central_vowel.ogg",
+  "path": "audio_src/files/140.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 13035
+ },
+ "ɛ": {
+  "file": "Open-mid_front_unrounded_vowel.ogg",
+  "path": "audio_src/files/141.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 16169
+ },
+ "œ": {
+  "file": "Open-mid_front_rounded_vowel_(2).ogg",
+  "path": "audio_src/files/142.mp3",
+  "artist": "User:Denelson83",
+  "license": "CC BY-SA 3.0",
+  "bytes": 17628
+ },
+ "ɜ": {
+  "file": "Open-mid_central_unrounded_vowel.ogg",
+  "path": "audio_src/files/143.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11832
+ },
+ "ɞ": {
+  "file": "Open-mid_central_rounded_vowel.ogg",
+  "path": "audio_src/files/144.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 21434
+ },
+ "ʌ": {
+  "file": "PR-open-mid_back_unrounded_vowel2.ogg",
+  "path": "audio_src/files/145.mp3",
+  "artist": "RoachPeter",
+  "license": "CC BY-SA 4.0",
+  "bytes": 12924
+ },
+ "ɔ": {
+  "file": "PR-open-mid_back_rounded_vowel.ogg",
+  "path": "audio_src/files/146.mp3",
+  "artist": "RoachPeter",
+  "license": "CC BY-SA 4.0",
+  "bytes": 14961
+ },
+ "æ": {
+  "file": "Near-open_front_unrounded_vowel.ogg",
+  "path": "audio_src/files/147.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 16898
+ },
+ "ɐ": {
+  "file": "Near-open_central_unrounded_vowel.ogg",
+  "path": "audio_src/files/148.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11051
+ },
+ "a": {
+  "file": "PR-open_front_unrounded_vowel.ogg",
+  "path": "audio_src/files/149.mp3",
+  "artist": "RoachPeter",
+  "license": "CC BY-SA 4.0",
+  "bytes": 13084
+ },
+ "ɶ": {
+  "file": "Open_front_rounded_vowel.ogg",
+  "path": "audio_src/files/150.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11961
+ },
+ "ɑ": {
+  "file": "Open_back_unrounded_vowel.ogg",
+  "path": "audio_src/files/151.mp3",
+  "artist": "Denelson83 (per Commons, assumed)",
+  "license": "CC BY-SA 3.0",
+  "bytes": 11937
+ },
+ "ɒ": {
+  "file": "PR-open_back_rounded_vowel.ogg",
+  "path": "audio_src/files/152.mp3",
+  "artist": "RoachPeter",
+  "license": "CC BY-SA 4.0",
+  "bytes": 13655
+ }
+}
