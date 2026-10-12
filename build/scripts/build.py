@@ -20,7 +20,7 @@ def glotto(gc):
     fam = gl[r['Family_ID']]['Name'] if r['Family_ID'] in gl else ('Isolate' if r['Is_Isolate'] == 'true' else '—')
     return fam, area
 
-# ---------- Top 30 (Ethnologue 2026, total speakers, millions) ----------
+# ---------- Top 38 (Ethnologue 2026, Wikipedia's table; Levantine Arabic (#35) left out: no PHOIBLE inventory, total speakers, millions) ----------
 # rank, name, L1, L2, total, default inventory, note
 TOP = [
  (1, 'English', 372, 1121, 1493, '2252', 'British RP (Received Pronunciation). Switch to an American inventory with the variety menu.'),
@@ -57,26 +57,13 @@ TOP = [
  (32, 'Italian', 60, 6, 65.6, '2195', 'Standard Italian. Long (geminate) consonants are listed as separate phonemes; ts dz ɲ ʎ ʃ only occur long between vowels, so the source lists them long.'),
  (33, 'Gujarati', 58, 5, 62.5, '2452', 'Standard Gujarati, with its breathy (murmured) vowels.'),
  (34, 'Kannada', 44, 15, 58.7, '2277', 'Standard Kannada.'),
- (35, 'Levantine Arabic', 55, 3, 57.8, None, 'PHOIBLE has no inventory for Levantine Arabic (apc). The inventory filed as "Lebanese Arabic" in PHOIBLE is in fact Libyan Arabic (Elfitoury 1976), so it is not used here.', 'nort3139'),
  (36, 'Sudanese Arabic', 43, 11, 54.3, '659', 'This source counts geminate consonants as separate phonemes.'),
  (37, 'Yoruba', 48, 5, 52.9, '848', 'Nigerian Yoruba. Yoruba p is the double stop k͡p.'),
  (38, 'Bhojpuri', 53, 0.5, 52.7, '2357', ''),
- (39, 'Jinyu Chinese', None, None, 48.0, None, 'PHOIBLE has no inventory for Jin Chinese (cjy).', 'jiny1235'),
- (40, 'Min Nan Chinese', None, None, 45.8, '481', 'Xiamen Hokkien (UPSID). The source does not list tones; Hokkien has seven.'),
- (41, 'Polish', None, None, 45.5, '2604', 'Standard Polish. This source writes sz ż cz dż as retroflex ʂ ʐ ʈ͡ʂ ɖ͡ʐ and y as ɘ̟ (usually written ɨ).'),
- (42, 'Burmese', None, None, 44.5, '2338', 'Rangoon. The source does not list tones; Burmese has three tones plus a checked syllable type. Chosen over the PHOIBLE Rangoon inventory, which writes voiceless nasals as sequences (m̥m).'),
- (43, 'Algerian Arabic', None, None, 43.4, None, 'PHOIBLE has no inventory for Algerian Arabic (arq).', 'alge1239'),
- (44, 'Hakka Chinese', None, None, 40.7, '2165', 'Meixian Hakka.'),
- (45, 'Lingala', None, None, 40.6, '768', 'The source does not list tones; Lingala has two (high and low).'),
- (46, 'Moroccan Arabic', None, None, 40.4, '133', 'This source counts geminate consonants as separate phonemes.'),
- (47, 'Odia', None, None, 39.5, '2495', ''),
- (48, 'Malayalam', None, None, 38.7, '2559', 'This source writes the ഴ sound as ʐ; most descriptions write it as the retroflex approximant ɻ.'),
- (49, 'Xiang Chinese', None, None, 38.2, None, 'PHOIBLE has no inventory for Xiang Chinese (hsn).', 'xian1251'),
- (50, 'Sindhi', None, None, 36.9, '2437', 'Standard (Vicholi) Sindhi, with its four implosives.'),
 ]
 TOP_INV = {t[5] for t in TOP if t[5]}
 
-# ---------- Corrections to clear errors in the default top-30 inventories ----------
+# ---------- Corrections to clear errors in the chosen inventories ----------
 # type: add (raw segment) | replace (raw -> new raw)
 ERRATA = {
  '2210': [('add', 'k', None, 'PHOIBLE omits /k/ from this Castilian inventory; Spanish has /k/ (casa, que). Source: Martínez-Celdrán, Fernández-Planas & Carrera-Sabaté (2003), "Castilian Spanish", JIPA 33(2).')],

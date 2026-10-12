@@ -8,7 +8,7 @@ To run it locally, open `index.html` in a browser (serve the folder over HTTP so
 
 ## What's in it
 
-- **Top 50 languages** (Ethnologue 2026, total speakers) as a checklist of sounds, with hand-checked inventories and cited corrections where the source data had clear errors.
+- **Top 38 languages** (Ethnologue 2026, total speakers, as listed in Wikipedia's table) as a checklist of sounds, leaving out Levantine Arabic (#35), which has no PHOIBLE inventory, with hand-checked inventories and cited corrections where the source data had clear errors.
 - **All 2,175 languages** with a documented phoneme inventory in PHOIBLE 2.0, filterable by family, region and sound, sortable by inventory size or native speakers.
 - **280 sound columns**: every symbol on the official IPA chart plus every variant used by at least 1% of languages, grouped by manner (plosive, nasal, trill, tap, fricative, approximant, affricate, ejective, implosive, click…) and place.
 - **Sound panels**: an animated side view of the mouth for every sound, a "how to make it" description, a reference recording (152 sounds) and a native-speaker example word (233 sounds), each verified against its Wiktionary IPA transcription.
@@ -34,8 +34,8 @@ bash build/make.sh         # rebuilds index.html and audio/
 | Phoneme inventories | [PHOIBLE 2.0](https://phoible.org) (Moran & McCloy, eds., 2019) | CC BY-SA 3.0 |
 | Families, classification, macroareas | [Glottolog](https://glottolog.org) (Hammarström et al.) | CC BY 4.0 |
 | Ancestor languages, example-word transcriptions | [Wiktionary](https://en.wiktionary.org) | CC BY-SA 4.0 |
-| Native speaker counts (non-top-30) | [Wikidata](https://www.wikidata.org) | CC0 |
-| Top-30 ranking and speaker figures | Ethnologue 2026, as reported on Wikipedia's "List of languages by total number of speakers" | facts |
+| Native speaker counts (outside the top 38) | [Wikidata](https://www.wikidata.org) | CC0 |
+| Top-38 ranking and speaker figures | Ethnologue 2026, as reported on Wikipedia's "List of languages by total number of speakers" | facts |
 | Recordings | [Wikimedia Commons](https://commons.wikimedia.org), individual authors | per file, see [CREDITS.md](CREDITS.md) |
 
 The recordings and much of the data are under share-alike licenses, so anything that redistributes them must credit the authors and keep the same licenses. The code in `build/` and `index.html` (excluding embedded data) has no license chosen yet.

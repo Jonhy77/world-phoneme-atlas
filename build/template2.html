@@ -307,7 +307,7 @@ button.sg:hover { border-color: var(--accent); }
     </div>
     <div class="stats" id="stats"></div>
     <nav class="tabs" role="tablist">
-      <button role="tab" id="tab-top" aria-selected="true" data-p="p-top">Top 50 languages</button>
+      <button role="tab" id="tab-top" aria-selected="true" data-p="p-top">Top 38 languages</button>
       <button role="tab" id="tab-all" aria-selected="false" data-p="p-all">All languages</button>
       <button role="tab" id="tab-cmp" aria-selected="false" data-p="p-cmp">Compare two languages</button>
       <button role="tab" id="tab-glo" aria-selected="false" data-p="p-glo">Glossary</button>
@@ -914,7 +914,7 @@ function openSound(seg, back) {
   else h += `<div class="ex"><h3>Example word</h3><span class="dmeta">No verified native recording found for this sound.</span></div>`;
   const yes = [], no = [];
   TOP.forEach((t, k) => { if (t.none) return; const st = topStates[k]; const v = p >= 0 ? st.st[p] : (st.seen.get(seg) || 0); (has(v) ? yes : no).push(esc(t.name) + (v === 2 ? ' (marginal)' : v === 3 ? ' (only as a variant)' : '')); });
-  h += `<div class="langs"><h3>In the top ${TOP.length}</h3>${yes.length ? `<div><b>Has it (${yes.length}):</b> ${yes.join(', ')}</div>` : `<div>None of the top ${TOP.length} has it.</div>`}${no.length && yes.length ? `<div class="no">Not in: ${no.join(', ')}</div>` : ''}</div>`;
+  h += `<div class="langs"><h3>In the top 38</h3>${yes.length ? `<div><b>Has it (${yes.length}):</b> ${yes.join(', ')}</div>` : `<div>None of the top 38 has it.</div>`}${no.length && yes.length ? `<div class="no">Not in: ${no.join(', ')}</div>` : ''}</div>`;
   if (p >= 0) h += `<div class="row"><button class="btn" id="fHas">Show all languages with it</button><button class="btn" id="fLacks">…without it</button></div>`;
   h += `</div>`;
   drawer.innerHTML = h; drawer.hidden = false; scrim.hidden = false;
@@ -1002,12 +1002,12 @@ function buildDoc() {
   document.getElementById('docBody').innerHTML = `
   <h2>What is in the tables</h2>
   <p>About 7,100 languages are spoken today. Only some have a published phoneme inventory. The largest curated collection of these is <a href="https://phoible.org" target="_blank" rel="noopener">PHOIBLE 2.0</a> (Moran &amp; McCloy, eds., 2019). It holds ${Object.keys(INV).length.toLocaleString('en')} inventories for ${NL.toLocaleString('en')} languages. The "All languages" table lists every one of those languages. Languages with no documented inventory are not shown, because there is nothing to check off for them.</p>
-  <p>Language family and macroarea come from <a href="https://glottolog.org" target="_blank" rel="noopener">Glottolog</a>. The top-50 ranking is Ethnologue 2026 by total speakers (first plus second language), as reported on Wikipedia's "List of languages by total number of speakers".</p>
+  <p>Language family and macroarea come from <a href="https://glottolog.org" target="_blank" rel="noopener">Glottolog</a>. The top-38 ranking is Ethnologue 2026 by total speakers (first plus second language), as reported in the table on Wikipedia's "List of languages by total number of speakers". Rank 35, Levantine Arabic, is left out because PHOIBLE has no inventory for it, so the table has 37 columns and the rank numbers after it keep their place in the source table.</p>
   <p>The <b>Compare</b> tab lines up two inventories for a learner: sounds are grouped with their variants (p, pʰ, pʷ…) so near-matches share a row, and every sound of the target language that your language lacks is listed with the closest sound you already know. "Closest" is a simple score over place, manner, voicing, vowel height, backness and rounding, so treat it as a hint.</p>
   <p>Both tables have a <b>⇄ Swap axes</b> button that swaps rows and columns. Open any language to see its full inventory and, under "Missing sounds", every sound column it lacks.</p>
   <h2>One inventory per language</h2>
   <p>Many languages have several inventories from different sources, and those sources sometimes analyse the same language differently. PHOIBLE does not choose a default, so each row uses one inventory picked by source, in this order: PHOIBLE's own transcriptions (mostly from JIPA Illustrations), then Eurasian, Australian, South American, African, Indian, SPA, and UPSID. Open any language to see and switch between its other inventories.</p>
-  <p>For the top 50, I checked every candidate inventory by hand and picked the one that best describes the standard variety:</p>
+  <p>For the top 38, I checked every candidate inventory by hand and picked the one that best describes the standard variety:</p>
   <table><thead><tr><th>#</th><th>Language</th><th>Inventory</th><th>Variety</th></tr></thead><tbody>${choice}</tbody></table>
   <h2>How sounds become columns</h2>
   <p>The columns follow the IPA chart's manner rows (plosive, nasal, trill, tap/flap, fricative, lateral fricative, approximant, lateral approximant), then affricates and the non-pulmonic sounds (ejectives, implosives, clicks), then prenasalized and doubly-articulated stops, vowels by height, and diphthongs. Within each group, sounds run from the lips back to the glottis, voiceless before voiced.</p>
@@ -1022,7 +1022,7 @@ function buildDoc() {
     <li>Tones are counted rather than charted, because sources write tone contours in ways that can't be compared directly.</li>
   </ul>
   <h2>Corrections</h2>
-  <p>Some of the chosen top-50 inventories have clear omissions or one-off transcriptions. I fixed only those, each with a citation. They show as pink cells and pink chips in the language panel:</p>
+  <p>Some of the chosen inventories have clear omissions or one-off transcriptions. I fixed only those, each with a citation. They show as pink cells and pink chips in the language panel:</p>
   <ul class="fixlist">${fixRows.join('')}</ul>
   <p>Every other inventory is shown exactly as PHOIBLE records it, after the notation merging described above. PHOIBLE inventories are phonemic analyses by different authors, so two sources can disagree about the same language. That is analysis, not error, and the tables keep it.</p>
   <h2>Articulation diagrams</h2>
@@ -1030,7 +1030,7 @@ function buildDoc() {
   <h2>Language family &amp; ancestry</h2>
   <p>Each language panel has a collapsed "Language family &amp; ancestry" section with two views. The <b>family tree</b> is Glottolog's classification: the chain of subgroups from the family down to the language, plus its closest relatives (green ones have an inventory and open on click). It covers every language. The <b>descended from</b> chain comes from Wiktionary's language data and lists actual ancestor languages, such as Portuguese ← Old Galician-Portuguese ← Latin ← Old Latin ← Proto-Italic ← Proto-Indo-European. ${Object.keys(FAMD.anc).length.toLocaleString('en')} of the ${NL.toLocaleString('en')} languages have one. Many of these chains contain only reconstructed proto-languages, because no older written stage of the language is known. The two sources can disagree at the deepest levels: Glottolog, for example, does not accept Niger-Congo as a proven family, while Wiktionary lists Proto-Niger-Congo.</p>
   <h2>Speaker numbers</h2>
-  <p>"Sort: native speakers" uses first-language (L1) speaker counts. For the top 50 these are Ethnologue 2026's L1 figures where Ethnologue publishes them. For every other language they come from <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a>, matched by ISO code (then Glottolog code), preferring statements explicitly marked as first-language. Unqualified Wikidata figures above 20 million are left out, because at that size they are usually first- plus second-language totals. Only ${Object.keys(SPK).length.toLocaleString('en')} of the ${NL.toLocaleString('en')} languages (${Math.round(100 * Object.keys(SPK).length / NL)}%) have a figure; the rest show "—" and sort last. Wikidata figures come from different years (shown in each language panel), so treat small differences between languages as noise.</p>
+  <p>"Sort: native speakers" uses first-language (L1) speaker counts. For the top 38 these are Ethnologue 2026's L1 figures where Ethnologue publishes them. For every other language they come from <a href="https://www.wikidata.org" target="_blank" rel="noopener">Wikidata</a>, matched by ISO code (then Glottolog code), preferring statements explicitly marked as first-language. Unqualified Wikidata figures above 20 million are left out, because at that size they are usually first- plus second-language totals. Only ${Object.keys(SPK).length.toLocaleString('en')} of the ${NL.toLocaleString('en')} languages (${Math.round(100 * Object.keys(SPK).length / NL)}%) have a figure; the rest show "—" and sort last. Wikidata figures come from different years (shown in each language panel), so treat small differences between languages as noise.</p>
   <h2>Recordings</h2>
   <p>The ▶ buttons play the reference recordings used on Wikipedia's IPA charts, hosted on Wikimedia Commons. ${Object.keys(AUD).length} sounds have one. Each recording is a phonetician producing the sound in isolation (consonants usually between vowels, as in [aCa]), so it shows the sound itself and not how a particular language pronounces it. Sounds without their own recording (most aspirated, long or nasalized variants) are never given the plain sound's recording instead.</p>
   <p>Every sound also gets an <b>example word</b> recorded by a native speaker, where one could be verified: ${Object.keys(WORDS).length} of the ${NC} sound columns have one. Each word was checked automatically against its Wiktionary entry: the entry must have a recording, and its IPA transcription for that language must contain the sound as a whole segment (so a word with [pʰ] does not count for plain [p], and long [tː] does not count for [t]). Where a sound has no isolated recording, its ▶ in the tables plays the example word instead (shown with a dashed button). The remaining sounds are rare variants for which no recorded, transcribed word exists in Wiktionary.</p>
