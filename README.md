@@ -2,7 +2,9 @@
 
 An interactive atlas of the speech sounds of the world's languages. It shows which IPA sounds each language uses, sorted by manner and place of articulation, with recordings, animated articulation diagrams and a comparison tool for language learners.
 
-Open `index.html` in a browser (serve the folder over HTTP so the audio files can load, for example `python -m http.server`).
+**Live site: https://jonhy77.github.io/world-phoneme-atlas/**
+
+To run it locally, open `index.html` in a browser (serve the folder over HTTP so the audio files can load, for example `python -m http.server`).
 
 ## What's in it
 
